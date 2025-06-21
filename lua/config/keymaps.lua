@@ -10,10 +10,12 @@ keymap("n", "sp", ":split<CR><C-w>l", opts)
 keymap("n", "sv", ":vsplit<CR><C-w>l", opts)
 
 -- Better line start/end
-keymap("n", "H", "^", opts)
-keymap("n", "L", "$", opts)
-keymap("v", "H", "^", opts)
-keymap("v", "L", "$", opts)
+--[[
+  keymap("n", "H", "^", opts)
+  keymap("n", "L", "$", opts)
+  keymap("v", "H", "^", opts)
+  keymap("v", "L", "$", opts)
+]]
 
 -- Better escape
 keymap("i", "jk", "<ESC>", opts)
