@@ -19,9 +19,10 @@ keymap("n", "sv", ":vsplit<CR><C-w>l", opts)
 
 -- Better escape
 keymap("i", "jk", "<ESC>", opts)
---keymap("n", ";", ":", opts)
+keymap("n", ";", ":", opts)
 keymap("n", "<ESC>", "<ESC>:noh<CR>", opts)
+--keymap("n", "<C-E>", "<leader>E<CR>", opts)
 
 -- Tab switch buffer
-keymap("n", "<Tab>", ":bnext<CR>", opts)
-keymap("n", "<S-Tab>", ":bprevious<CR>", opts)
+--keymap("n", "<Tab>", ":bnext<CR>", opts)
+--keymap("n", "<S-Tab>", ":bprevious<CR>", opts)
